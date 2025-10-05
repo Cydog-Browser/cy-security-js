@@ -9,7 +9,7 @@ This is a free-to-use javascript drop-in to secure your website. It helps protec
 <head>
   <!-- Existing meta tags -->
   <!-- Existing Content Security Policy Meta Tag -->
-  <script src="/js/security/cysecurity.js" defer></script>
+  <script id="cysecurity" src="/js/security/cysecurity.js"></script>
 </head>
 ```
 4. Insert a CSP Meta Tag with customized list of domains
